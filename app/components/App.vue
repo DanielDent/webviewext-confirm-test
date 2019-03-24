@@ -1,8 +1,8 @@
 <template>
     <Page>
-        <ActionBar title="Welcome to NativeScript-Vue!"/>
+        <ActionBar title="Welcome to WebViewExt Confirm Test"/>
         <GridLayout columns="*" rows="*">
-            <Label class="message" :text="msg" col="0" row="0"/>
+            <WebViewExt src="~/assets/hello.html" col="0" row="0"/>
         </GridLayout>
     </Page>
 </template>
